@@ -1,0 +1,67 @@
+
+/* ===========================
+    ALL
+=========================== */
+.all__big-container {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    color: var(--colorAmber1)
+}
+
+.all__header-container {
+    position: fixed;
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.all__headers { 
+    justify-content: space-between;
+}
+
+.all__footer-container {
+    text-align: center;
+}
+
+
+/* ===========================
+    index.html 
+=========================== */
+.index__c1-container {
+    padding-top: 8em;
+}
+
+/* ===========================
+    media queries
+=========================== */
+@media only screen and (max-width: 350px) {
+    /* Small phones */
+    .all__big-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media only screen and (min-width: 350.1px) and (max-width: 700px) {
+    /* Phones */
+    .all__big-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media only screen and (min-width: 700.1px) and (max-width: 1023px) {
+    /* Tablets */
+    .all__big-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media only screen and (min-width: 1023.1px) {
+    .all__big-container {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
